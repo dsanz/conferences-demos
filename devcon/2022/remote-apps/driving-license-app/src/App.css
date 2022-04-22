@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.initial-state {
+  height: 100%;
+}
+
+.input-form {
+  justify-content: center;
+  padding-right: 35%;
+  padding-left: 35%;
+
+}
+
+.typewriter h1 {
+  padding-top: 10%;
+  color: #000;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+.card-container {
+  padding-top: 10%;
+}
