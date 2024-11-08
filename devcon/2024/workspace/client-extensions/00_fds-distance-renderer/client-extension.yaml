@@ -1,0 +1,7 @@
+assemble:
+    - from: build/static
+      into: static
+fds-distance-renderer:
+    name: Devcon 2024 FDS Distance Renderer
+    type: fdsCellRenderer
+    url: index.*.js
