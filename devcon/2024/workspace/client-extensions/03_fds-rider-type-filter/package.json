@@ -1,0 +1,28 @@
+{
+	"dependencies": {
+		"@liferay/js-api": "0.6.0",
+		"@clayui/button": "*",
+		"@clayui/form": "*",
+		"@clayui/label": "*",
+		"react": "16.14.0",
+		"react-dom": "16.14.0"
+
+	},
+	"description": "Devcon 2024 FDS Rider Type Filter",
+	"devDependencies": {
+		"file-loader": "^6.2.0",
+		"ts-loader": "9.5.1",
+		"typescript": "^5.0.4",
+		"webpack": "5.90.1",
+		"webpack-cli": "5.1.4",
+		"webpack-dev-server": "4.15.1"
+	},
+	"main": "./src/index.ts",
+	"name": "@liferay/devcon-2024-fds-rider-type-filter",
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack serve",
+		"watch": "tsc --watch"
+	},
+	"version": "0.0.0"
+}

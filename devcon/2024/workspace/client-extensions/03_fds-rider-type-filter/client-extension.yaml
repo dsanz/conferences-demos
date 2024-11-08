@@ -1,0 +1,7 @@
+assemble:
+    - from: build/static
+      into: static
+fds-rider-type-filter:
+    name: Devcon 2024 FDS Rider Type Filter
+    type: fdsFilter
+    url: index.*.js
