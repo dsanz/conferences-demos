@@ -1,0 +1,7 @@
+assemble:
+    - from: build/static
+      into: static
+fds-rank-filter:
+    name: Devcon 2024 FDS Rank Filter
+    type: fdsFilter
+    url: index.*.js
