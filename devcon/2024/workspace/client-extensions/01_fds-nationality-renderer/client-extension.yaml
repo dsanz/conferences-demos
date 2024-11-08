@@ -1,0 +1,7 @@
+assemble:
+    - from: build/static
+      into: static
+fds-nationality-renderer:
+    name: Devcon 2024 FDS Nationality Renderer
+    type: fdsCellRenderer
+    url: index.*.js
