@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "client-extensions/00_fds-distance-renderer",
+            "client-extensions/03_fds-rider-type-filter",
+            "client-extensions/02_fds-rank-filter",
+            "client-extensions/01_fds-nationality-renderer"
+        ]
+    }
+}
